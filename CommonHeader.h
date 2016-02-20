@@ -3,9 +3,9 @@
 #define _CRT_SECURE_NO_WARNINGS
 /**************************************ad-hoc Algorithm*************************************************/
 
-//#define AD_HOC_01_UVA_100_THE_3N_PROBLEM aaa
+#define AD_HOC_01_UVA_100_THE_3N_PROBLEM
 
-#define ENTRY_FUNC AD_HOC_01_UVA_100_THE_3N_PROBLEM
+
 
 /*******************************************************************************************************/
 #include <iostream>
@@ -13,21 +13,20 @@
 #include <direct.h>
 
 #define CAT(A, B)   A##B
-#define FILE_NAME1(A) CAT(#A, ".txt")
-#define FILE_NAME(A) FILE_NAME1(A)
+#define FILE_NAME1(A, B) CAT(A, B)
+#define FILE_NAME(A, B) FILE_NAME1(A, B)
 
-int before_main()
-{	
-	std::string path_dir = _getcwd(NULL, 0);
-	//std::string st = FILE_NAME(AD_HOC_01_UVA_100_THE_3N_PROBLEM);
-	std::string st = FILE_NAME(ENTRY_FUNC);
-	std::string input_file = path_dir + "\\..\\input\\" + st;
-
-	freopen(input_file.c_str(), "r", stdin);
-	
-	return 0; 
-}
-int n = before_main();
+#define READ_INPUT(A)													\
+	int before_main1()													\
+{																		\
+	std::string path_dir = _getcwd(NULL, 0);							\
+	std::string st = FILE_NAME1(#A, ".txt");							\
+	std::cout << st << std::endl;										\
+	std::string input_file = path_dir + "\\..\\input\\" + st;			\
+	freopen(input_file.c_str(), "r", stdin);							\
+	return 0;															\
+}																		\
+	int nn = before_main1();											\
 /*******************************************************************************************************/
 
 
