@@ -21,7 +21,6 @@
 {																		\
 	std::string path_dir = _getcwd(NULL, 0);							\
 	std::string st = FILE_NAME1(#A, ".txt");							\
-	std::cout << st << std::endl;										\
 	std::string input_file = path_dir + "\\..\\input\\" + st;			\
 	freopen(input_file.c_str(), "r", stdin);							\
 	return 0;															\
