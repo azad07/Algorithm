@@ -68,9 +68,16 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_02_uva_272_TeX_Quotes.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_03_uva_483_Word_Scramble.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_04_uva_The_Snail.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Algorithm.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

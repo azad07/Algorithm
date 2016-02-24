@@ -1,13 +1,18 @@
-﻿Build started 2/21/2016 3:14:01 AM.
-     1>Project "D:\algorithm\GitHub\Algorithm\Algorithm\Algorithm.vcxproj" on node 2 (Build target(s)).
+﻿Build started 2/25/2016 1:32:17 AM.
+     1>Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp
-         ad_hoc_01_uva_100_The_3n_Problem.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\ad_hoc\ad_hoc_04_uva_The_Snail.cpp
+         ad_hoc_04_uva_The_Snail.cpp
+     1>d:\algorithm\algorithm\src\ad_hoc\ad_hoc_04_uva_the_snail.cpp(32): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
        Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithm\GitHub\Algorithm\Debug\Algorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithm\GitHub\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithm\GitHub\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 Debug\ad_hoc_01_uva_100_The_3n_Problem.obj
-         Algorithm.vcxproj -> D:\algorithm\GitHub\Algorithm\Debug\Algorithm.exe
-     1>Done Building Project "D:\algorithm\GitHub\Algorithm\Algorithm\Algorithm.vcxproj" (Build target(s)).
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithm\Algorithm\Debug\Algorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithm\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithm\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 Debug\Algorithm.res
+         Debug\ad_hoc_01_uva_100_The_3n_Problem.obj
+         Debug\ad_hoc_02_uva_272_TeX_Quotes.obj
+         Debug\ad_hoc_03_uva_483_Word_Scramble.obj
+         Debug\ad_hoc_04_uva_The_Snail.obj
+         Algorithm.vcxproj -> D:\algorithm\Algorithm\Debug\Algorithm.exe
+     1>Done Building Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.35
+Time Elapsed 00:00:01.39
