@@ -6,7 +6,8 @@
 //#define AD_HOC_01_UVA_100_THE_3N_PROBLEM
 //#define AD_HOC_02_UVA_272_TEX_QUOTES
 //#define AD_HOC_03_UVA_WORD_SCRAMBLE
-#define AD_HOC_04_UVA_573_THE_SNAIL
+//#define AD_HOC_04_UVA_573_THE_SNAIL
+#define ad_hoc_05_uva_661_Blowing_Fuses
 
 
 /*******************************************************************************************************/
