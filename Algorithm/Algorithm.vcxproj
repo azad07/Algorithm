@@ -73,6 +73,7 @@
     <ClCompile Include="..\src\ad_hoc\ad_hoc_04_uva_573_The_Snail.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_05_uva_661_Blowing_Fuses.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_06_uva_837_Light_and_Transparencies.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_07_uva_10082_WERTYU.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
