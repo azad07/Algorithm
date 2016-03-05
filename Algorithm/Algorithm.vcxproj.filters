@@ -21,6 +21,9 @@
     <ClCompile Include="..\src\ad_hoc\ad_hoc_05_uva_661_Blowing_Fuses.cpp">
       <Filter>ad_hoc</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_06_uva_837_Light_and_Transparencies.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
