@@ -7,7 +7,8 @@
 //#define AD_HOC_02_UVA_272_TEX_QUOTES
 //#define AD_HOC_03_UVA_WORD_SCRAMBLE
 //#define AD_HOC_04_UVA_573_THE_SNAIL
-#define ad_hoc_05_uva_661_Blowing_Fuses
+//#define ad_hoc_05_uva_661_Blowing_Fuses
+#define ad_hoc_06_uva_837_Light_and_Transparencies
 
 
 /*******************************************************************************************************/

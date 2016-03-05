@@ -1,8 +1,22 @@
-﻿Build started 2/27/2016 10:10:39 PM.
+﻿Build started 3/6/2016 4:11:35 AM.
      1>Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\ad_hoc\ad_hoc_05_uva_661_Blowing_Fuses.cpp
-         ad_hoc_05_uva_661_Blowing_Fuses.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\ad_hoc\ad_hoc_06_uva_837_Light_and_Transparencies.cpp
+         ad_hoc_06_uva_837_Light_and_Transparencies.cpp
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\utility(144): warning C4244: 'initializing' : conversion from 'int' to 'float', possible loss of data
+                 d:\algorithm\algorithm\src\ad_hoc\ad_hoc_06_uva_837_light_and_transparencies.cpp(61) : see reference to function template instantiation 'std::pair<float,float>::pair<int,double,void>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Other1=int
+         ,            _Other2=double
+                 ]
+                 d:\algorithm\algorithm\src\ad_hoc\ad_hoc_06_uva_837_light_and_transparencies.cpp(61) : see reference to function template instantiation 'std::pair<float,float>::pair<int,double,void>(_Other1 &&,_Other2 &&)' being compiled
+                 with
+                 [
+                     _Other1=int
+         ,            _Other2=double
+                 ]
+     1>c:\program files (x86)\microsoft visual studio 12.0\vc\include\utility(144): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithm\Algorithm\Debug\Algorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithm\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithm\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 Debug\Algorithm.res
          Debug\ad_hoc_01_uva_100_The_3n_Problem.obj
@@ -10,9 +24,10 @@
          Debug\ad_hoc_03_uva_483_Word_Scramble.obj
          Debug\ad_hoc_04_uva_573_The_Snail.obj
          Debug\ad_hoc_05_uva_661_Blowing_Fuses.obj
+         Debug\ad_hoc_06_uva_837_Light_and_Transparencies.obj
          Algorithm.vcxproj -> D:\algorithm\Algorithm\Debug\Algorithm.exe
      1>Done Building Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:01.01
+Time Elapsed 00:00:01.46
