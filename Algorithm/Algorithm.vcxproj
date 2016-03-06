@@ -74,6 +74,7 @@
     <ClCompile Include="..\src\ad_hoc\ad_hoc_05_uva_661_Blowing_Fuses.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_06_uva_837_Light_and_Transparencies.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_07_uva_10082_WERTYU.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />

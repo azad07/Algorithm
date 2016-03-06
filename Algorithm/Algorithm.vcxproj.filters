@@ -27,6 +27,9 @@
     <ClCompile Include="..\src\ad_hoc\ad_hoc_07_uva_10082_WERTYU.cpp">
       <Filter>ad_hoc</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
