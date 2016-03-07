@@ -4,6 +4,12 @@
     <Filter Include="ad_hoc">
       <UniqueIdentifier>{ababf6cb-7349-42aa-96e6-cbaf90f34381}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{1cce762b-a4fa-4ff9-9b0e-80755e7ef40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph\flood_fill">
+      <UniqueIdentifier>{39089da9-c6f0-48c4-97af-02025e30d202}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -29,6 +35,12 @@
     </ClCompile>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp">
       <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_09_uva_10281_Average_Speed.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\graph_01_basic.cpp">
+      <Filter>Graph</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
