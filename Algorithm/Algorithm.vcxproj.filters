@@ -42,6 +42,9 @@
     <ClCompile Include="..\src\Graph\graph_01_basic.cpp">
       <Filter>Graph</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />

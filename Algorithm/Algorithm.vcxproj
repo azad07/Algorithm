@@ -78,6 +78,7 @@
     <ClCompile Include="..\src\ad_hoc\ad_hoc_07_uva_10082_WERTYU.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_09_uva_10281_Average_Speed.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp" />
     <ClCompile Include="..\src\Graph\graph_01_basic.cpp" />
   </ItemGroup>
   <ItemGroup>
