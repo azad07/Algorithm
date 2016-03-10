@@ -113,12 +113,19 @@ void printCase(int tc)
 int main()
 {
 	int testCaseCounter = 0;
-	while (1)
+	/*while (1)
 	{
 		testCaseCounter++;
 		cin >> N;
 		if (N == 0)
 			break;
+		readCase();
+		solveCase();
+		printCase(testCaseCounter);
+	}*/
+	while (cin>>N, N!=0)
+	{
+		testCaseCounter++;
 		readCase();
 		solveCase();
 		printCase(testCaseCounter);
