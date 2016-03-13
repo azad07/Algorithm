@@ -83,6 +83,7 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_04_uva_469_Wetlands_of_Florida.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_05_uva_572_ Oil_Deposits.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_06_uva_657_The_die_is_cast.cpp" />
     <ClCompile Include="..\src\Graph\graph_01_basic.cpp" />
   </ItemGroup>
   <ItemGroup>
