@@ -57,6 +57,9 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_05_uva_572_ Oil_Deposits.cpp">
       <Filter>Graph\flood_fill</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_06_uva_657_The_die_is_cast.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
