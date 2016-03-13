@@ -51,6 +51,9 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp">
       <Filter>Graph\flood_fill</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_04_uva_469_Wetlands_of_Florida.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
