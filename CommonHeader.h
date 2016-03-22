@@ -2,7 +2,8 @@
 #define _CRT_SECURE_NO_DEPRECATE // suppress some compilation warning messages (for VC++ users)
 #define _CRT_SECURE_NO_WARNINGS
 #define  _SCL_SECURE_NO_WARNINGS
-
+ 
+#include "ConsoleColor.h";
 
 /**************************************ad-hoc Algorithm*************************************************/
 
@@ -27,7 +28,8 @@
 //#define flood_fill_04_uva_469_Wetlands_of_Florida
 //#define flood_fill_05_uva_572_ Oil_Deposits
 //#define flood_fill_06_uva_657_The_die_is_cast
-#define flood_fill_07_uva_722_Lakes
+//#define flood_fill_07_uva_722_Lakes
+#define flood_fill_08_uva_758_The_Same_Game
 
 /*******************************************************************************************************/
 #include <iostream>

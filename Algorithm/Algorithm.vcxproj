@@ -85,10 +85,12 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_05_uva_572_ Oil_Deposits.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_06_uva_657_The_die_is_cast.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_07_uva_722_Lakes.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_08_uva_758_The_Same_Game.cpp" />
     <ClCompile Include="..\src\Graph\graph_01_basic.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
+    <ClInclude Include="..\ConsoleColor.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

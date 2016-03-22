@@ -63,10 +63,14 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_07_uva_722_Lakes.cpp">
       <Filter>Graph\flood_fill</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_08_uva_758_The_Same_Game.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="..\ConsoleColor.h" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Algorithm.rc" />
