@@ -78,6 +78,9 @@
     <ClCompile Include="..\src\ad_hoc\ad_hoc_07_uva_10082_WERTYU.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_09_uva_10281_Average_Speed.cpp" />
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_01_A_Time.cpp" />
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_02_B_Weird_Cryptography.cpp" />
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_03_C_OCR.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_02_uva_352_The_Seasonal_War.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp" />
