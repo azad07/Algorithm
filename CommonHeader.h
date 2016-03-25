@@ -29,7 +29,14 @@
 //#define flood_fill_05_uva_572_ Oil_Deposits
 //#define flood_fill_06_uva_657_The_die_is_cast
 //#define flood_fill_07_uva_722_Lakes
-#define flood_fill_08_uva_758_The_Same_Game
+//#define flood_fill_08_uva_758_The_Same_Game
+
+
+/************************************** CodeForce*************************************************/
+//#define codeforce_01_A_Time
+//#define codeforce_02_B_Weird_Cryptography
+#define codeforce_03_C_OCR
+
 
 /*******************************************************************************************************/
 #include <iostream>
