@@ -44,13 +44,13 @@ typedef map<string, int> msi;
 #define BLACK	2
 #define GREEN	3
 #define RED		4
-#define DEBUG 1
+#define DEBUG	0
 
-int dr8[] = {0, 1, 1, 0, -1, -1, -1,  0,  1 };
-int dc8[] = {0, 0, 1, 1,  1,  0, -1, -1, -1 };
+int dr8[] = { 0, 1, 1, 0, -1, -1, -1, 0, 1 };
+int dc8[] = { 0, 0, 1, 1, 1, 0, -1, -1, -1 };
 
-int dr4[] = {  1, 0, -1, 0 };
-int dc4[] = {  0, 1, 0, -1 };
+int dr4[] = { 1, 0, -1, 0 };
+int dc4[] = { 0, 1, 0, -1 };
 
 char board[11][16];
 bool V[11][16];
@@ -59,7 +59,7 @@ char MARKER = '*';
 
 void printB()
 {
-#ifdef DEBUG
+#if DEBUG
 	FORI(i, 0, row - 1)
 	{
 		FORI(j, 0, col - 1)
@@ -120,14 +120,29 @@ void shiftDown()
 
 void shiftLeft()
 {
-	FORI(i, 0, row - 1) FORI(j, 1, col - 1)
+	FORI(t, 0, col - 1)
 	{
-		int c = j;
-		while (c > 0 && board[i][c - 1] == MARKER)
+		FORI(j, 0, col - 1)
 		{
-			board[i][c - 1] = board[i][c];
-			board[i][c] = MARKER;
-			c--;
+			// check if complete column is empty.
+			bool isEmpty = true;
+			FORI(i, 0, row - 1)
+			{
+				if (board[i][j] != MARKER)
+				{
+					isEmpty = false;
+					break;
+				}
+			}
+
+			if (isEmpty)
+			{
+				FORI(n, j + 1, col )
+				{
+					FORI(m, 0, row - 1)
+						board[m][n - 1] = board[m][n];
+				}
+			}
 		}
 	}
 }
@@ -136,19 +151,21 @@ void solveCase()
 {
 	int max_cluster, cluster_r, cluster_c, move;
 	char filling_color;
+	int total_score = 0, total_cluster = 0;
 	move = 0;
 	while (1)
 	{
 		memset(V, false, sizeof(V));
 		max_cluster = 0;
 		// bottom->up, left->right.
-		RFORI(i, 9, 0) FORI(j, 0, 14)
+		//RFORI(i, row-1, 0) FORI(j, 0, 14)
+		FORI(j, 0, col - 1) RFORI(i, row - 1, 0)
 		{
 			if (V[i][j] == false && board[i][j] != MARKER)
 			{
 				int cluster = floodFill(i, j, board[i][j]);
-				if (cluster == max_cluster)
-					cout << "ashish" << endl;
+				//if (cluster == max_cluster)
+				//	cout << "ashish" << endl;
 				if (cluster > max_cluster)
 				{
 					max_cluster = cluster;
@@ -169,14 +186,20 @@ void solveCase()
 		printB();
 		//do shifting operation.
 		shiftDown();
-		printB();
+		//printB();
 
+		// shift left only when complete coloumn is empty;
 		shiftLeft();
 		printB();
 		// print move
 		//Move 1 at (4,1): removed 32 balls of color B, got 900 points.
 		printf("Move %d at (%d,%d): removed %d balls of color %c, got %d points.\n", ++move, (10 - cluster_r), cluster_c + 1, max_cluster, filling_color, (max_cluster - 2)*(max_cluster - 2));
+		total_score += ((max_cluster - 2)*(max_cluster - 2));
+		total_cluster += max_cluster;
 	}
+	if (row*col == total_cluster)
+		total_score += 1000;
+	printf("Final score: %d, with %d balls remaining.\n", total_score, (row*col) - total_cluster);
 }
 
 void printCase()
@@ -191,12 +214,14 @@ void initCase()
 
 void readCase()
 {
-	FORI(i, 0, 14)
+	FORI(i, 0, 9)
 	{
 		scanf("%s", board[i]);
 	}
 	col = strlen(board[0]);
 	row = 10;
+	FORI(i, 0, row - 1)
+		board[i][col] = MARKER;
 }
 
 int main()
@@ -207,11 +232,16 @@ int main()
 	{
 		initCase();
 		readCase();
-		printf("Game: %d\n", test_case);
+		printf("Game %d:\n\n", test_case);
 		solveCase();
-		
+		if (test_case != t)
+			printf("\n");
+
 	}
 
 	return 0;
 }
+
+
+
 #endif
