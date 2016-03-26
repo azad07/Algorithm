@@ -81,6 +81,9 @@
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_03_C_OCR.cpp">
       <Filter>codeforce\gym_01</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
