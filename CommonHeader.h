@@ -30,7 +30,8 @@
 //#define flood_fill_06_uva_657_The_die_is_cast
 //#define flood_fill_07_uva_722_Lakes
 //#define flood_fill_08_uva_758_The_Same_Game
-#define flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest
+//#define flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest
+#define flood_fill_10_uva_782_Contour_Painting
 
 
 /************************************** CodeForce*************************************************/

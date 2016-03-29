@@ -84,6 +84,9 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.cpp">
       <Filter>Graph\flood_fill</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_10_uva_782_Contour_Painting.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
