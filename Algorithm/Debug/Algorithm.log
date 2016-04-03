@@ -1,10 +1,9 @@
-﻿Build started 3/30/2016 2:02:07 AM.
+﻿Build started 4/3/2016 9:32:12 PM.
      1>Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Graph\flood_fill\flood_fill_10_uva_782_Contour_Painting.cpp
-         flood_fill_10_uva_782_Contour_Painting.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\codechef\april_16\codechef_01_apr_Chef_And_Coloring.cpp
+         codechef_01_apr_Chef_And_Coloring.cpp
      1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>d:\algorithm\algorithm\src\graph\flood_fill\flood_fill_10_uva_782_contour_painting.cpp(143): warning C4101: 'tc' : unreferenced local variable
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithm\Algorithm\Debug\Algorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithm\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithm\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 Debug\Algorithm.res
          Debug\ad_hoc_01_uva_100_The_3n_Problem.obj
@@ -16,6 +15,7 @@
          Debug\ad_hoc_07_uva_10082_WERTYU.obj
          Debug\ad_hoc_08_uva_10141_Request_for_Proposal.obj
          Debug\ad_hoc_09_uva_10281_Average_Speed.obj
+         Debug\codechef_01_apr_Chef_And_Coloring.obj
          Debug\codeforce_01_A_Time.obj
          Debug\codeforce_02_B_Weird_Cryptography.obj
          Debug\codeforce_03_C_OCR.obj
@@ -35,4 +35,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.21
+Time Elapsed 00:00:01.86

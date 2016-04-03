@@ -16,6 +16,12 @@
     <Filter Include="codeforce\gym_01">
       <UniqueIdentifier>{e28727f1-d736-4d2a-875d-3a78c30a25d0}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codechef">
+      <UniqueIdentifier>{31480d96-c24e-4a33-a990-f7a8da65eb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\april_challange">
+      <UniqueIdentifier>{e23cd56f-eb99-47c2-b067-4caed7546c71}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -86,6 +92,9 @@
     </ClCompile>
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_10_uva_782_Contour_Painting.cpp">
       <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codechef\april_16\codechef_01_apr_Chef_And_Coloring.cpp">
+      <Filter>codechef\april_challange</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
