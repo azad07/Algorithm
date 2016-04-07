@@ -79,6 +79,8 @@
     <ClCompile Include="..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp" />
     <ClCompile Include="..\src\ad_hoc\ad_hoc_09_uva_10281_Average_Speed.cpp" />
     <ClCompile Include="..\src\codechef\april_16\codechef_01_apr_Chef_And_Coloring.cpp" />
+    <ClCompile Include="..\src\codechef\april_16\codechef_02_apr_Chef_and_Ballons.cpp" />
+    <ClCompile Include="..\src\codechef\april_16\codechef_03_apr_Chef_And_Magical_Path.cpp" />
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_01_A_Time.cpp" />
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_02_B_Weird_Cryptography.cpp" />
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_03_C_OCR.cpp" />
@@ -92,6 +94,7 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_08_uva_758_The_Same_Game.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_10_uva_782_Contour_Painting.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_11_uva_784_Maze_Exploration.cpp" />
     <ClCompile Include="..\src\Graph\graph_01_basic.cpp" />
   </ItemGroup>
   <ItemGroup>
