@@ -96,6 +96,15 @@
     <ClCompile Include="..\src\codechef\april_16\codechef_01_apr_Chef_And_Coloring.cpp">
       <Filter>codechef\april_challange</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\codechef\april_16\codechef_02_apr_Chef_and_Ballons.cpp">
+      <Filter>codechef\april_challange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codechef\april_16\codechef_03_apr_Chef_And_Magical_Path.cpp">
+      <Filter>codechef\april_challange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_11_uva_784_Maze_Exploration.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />

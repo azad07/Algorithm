@@ -32,6 +32,7 @@
 //#define flood_fill_08_uva_758_The_Same_Game
 //#define flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest
 //#define flood_fill_10_uva_782_Contour_Painting
+#define flood_fill_11_uva_784_Maze_Exploration
 
 
 /************************************** CodeForce*************************************************/
@@ -40,7 +41,9 @@
 //#define codeforce_03_C_OCR
 
 /************************************** Codechef*************************************************/
-#define codechef_01_apr_Chef_And_Coloring
+//#define codechef_01_apr_Chef_And_Coloring
+//#define codechef_02_apr_Chef_and_Ballons
+//#define codechef_03_apr_Chef_And_Magical_Path
 
 /*******************************************************************************************************/
 #include <iostream>
