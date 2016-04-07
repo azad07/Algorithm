@@ -1,44 +1,114 @@
-﻿Build started 4/8/2016 12:59:10 AM.
+﻿Build started 4/8/2016 1:26:55 AM.
      1>Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" on node 2 (Build target(s)).
      1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Graph\flood_fill\flood_fill_13_uva_852_Deciding_victory_in_Go.cpp
-         flood_fill_13_uva_852_Deciding_victory_in_Go.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp ..\src\ad_hoc\ad_hoc_02_uva_272_TeX_Quotes.cpp ..\src\ad_hoc\ad_hoc_03_uva_483_Word_Scramble.cpp ..\src\ad_hoc\ad_hoc_04_uva_573_The_Snail.cpp ..\src\ad_hoc\ad_hoc_05_uva_661_Blowing_Fuses.cpp ..\src\ad_hoc\ad_hoc_06_uva_837_Light_and_Transparencies.cpp ..\src\ad_hoc\ad_hoc_07_uva_10082_WERTYU.cpp ..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp ..\src\ad_hoc\ad_hoc_09_uva_10281_Average_Speed.cpp ..\src\codechef\april_16\codechef_01_apr_Chef_And_Coloring.cpp ..\src\codechef\april_16\codechef_02_apr_Chef_and_Ballons.cpp ..\src\codechef\april_16\codechef_03_apr_Chef_And_Magical_Path.cpp "..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_01_A_Time.cpp" "..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_02_B_Weird_Cryptography.cpp" "..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_03_C_OCR.cpp" ..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp ..\src\Graph\flood_fill\flood_fill_02_uva_352_The_Seasonal_War.cpp ..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp ..\src\Graph\flood_fill\flood_fill_04_uva_469_Wetlands_of_Florida.cpp "..\src\Graph\flood_fill\flood_fill_05_uva_572_ Oil_Deposits.cpp" ..\src\Graph\flood_fill\flood_fill_06_uva_657_The_die_is_cast.cpp ..\src\Graph\flood_fill\flood_fill_07_uva_722_Lakes.cpp ..\src\Graph\flood_fill\flood_fill_08_uva_758_The_Same_Game.cpp ..\src\Graph\flood_fill\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.cpp ..\src\Graph\flood_fill\flood_fill_10_uva_782_Contour_Painting.cpp ..\src\Graph\flood_fill\flood_fill_11_uva_784_Maze_Exploration.cpp ..\src\Graph\flood_fill\flood_fill_12_uva_785_Grid_Colouring.cpp ..\src\Graph\flood_fill\flood_fill_13_uva_852_Deciding_victory_in_Go.cpp ..\src\Graph\flood_fill\flood_fill_14_uva_871_Counting_Cells_in_a_Blob.cpp ..\src\Graph\graph_01_basic.cpp
+         flood_fill_14_uva_871_Counting_Cells_in_a_Blob.cpp
      1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-     1>cl : Command line warning D9028: minimal rebuild failure, reverting to normal build
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithm\Algorithm\Debug\Algorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithm\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithm\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 Debug\Algorithm.res
-         Debug\ad_hoc_01_uva_100_The_3n_Problem.obj
-         Debug\ad_hoc_02_uva_272_TeX_Quotes.obj
-         Debug\ad_hoc_03_uva_483_Word_Scramble.obj
-         Debug\ad_hoc_04_uva_573_The_Snail.obj
-         Debug\ad_hoc_05_uva_661_Blowing_Fuses.obj
-         Debug\ad_hoc_06_uva_837_Light_and_Transparencies.obj
-         Debug\ad_hoc_07_uva_10082_WERTYU.obj
-         Debug\ad_hoc_08_uva_10141_Request_for_Proposal.obj
-         Debug\ad_hoc_09_uva_10281_Average_Speed.obj
-         Debug\codechef_01_apr_Chef_And_Coloring.obj
-         Debug\codechef_02_apr_Chef_and_Ballons.obj
-         Debug\codechef_03_apr_Chef_And_Magical_Path.obj
-         Debug\codeforce_01_A_Time.obj
-         Debug\codeforce_02_B_Weird_Cryptography.obj
-         Debug\codeforce_03_C_OCR.obj
-         Debug\flood_fill_01_uva_260_Gioco_dell.obj
-         Debug\flood_fill_02_uva_352_The_Seasonal_War.obj
-         Debug\flood_fill_03_uva_459_Graph_Connectivity.obj
-         Debug\flood_fill_04_uva_469_Wetlands_of_Florida.obj
-         "Debug\flood_fill_05_uva_572_ Oil_Deposits.obj"
-         Debug\flood_fill_06_uva_657_The_die_is_cast.obj
-         Debug\flood_fill_07_uva_722_Lakes.obj
-         Debug\flood_fill_08_uva_758_The_Same_Game.obj
-         Debug\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.obj
-         Debug\flood_fill_10_uva_782_Contour_Painting.obj
-         Debug\flood_fill_11_uva_784_Maze_Exploration.obj
-         Debug\flood_fill_12_uva_785_Grid_Colouring.obj
-         Debug\flood_fill_13_uva_852_Deciding_victory_in_Go.obj
-         Debug\graph_01_basic.obj
-         Algorithm.vcxproj -> D:\algorithm\Algorithm\Debug\Algorithm.exe
-     1>Done Building Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" (Build target(s)).
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+     1>d:\algorithm\algorithm\src\graph\flood_fill\flood_fill_14_uva_871_counting_cells_in_a_blob.cpp(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\src\graph\flood_fill\flood_fill_14_uva_871_counting_cells_in_a_blob.cpp(73): warning C4018: '>=' : signed/unsigned mismatch
+         Generating Code...
+         Compiling...
+         ad_hoc_01_uva_100_The_3n_Problem.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         ad_hoc_02_uva_272_TeX_Quotes.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         ad_hoc_03_uva_483_Word_Scramble.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         ad_hoc_04_uva_573_The_Snail.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         ad_hoc_05_uva_661_Blowing_Fuses.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         ad_hoc_06_uva_837_Light_and_Transparencies.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         ad_hoc_07_uva_10082_WERTYU.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         ad_hoc_08_uva_10141_Request_for_Proposal.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         ad_hoc_09_uva_10281_Average_Speed.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         codechef_01_apr_Chef_And_Coloring.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         codechef_02_apr_Chef_and_Ballons.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         codechef_03_apr_Chef_And_Magical_Path.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         codeforce_01_A_Time.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         codeforce_02_B_Weird_Cryptography.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         codeforce_03_C_OCR.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         flood_fill_01_uva_260_Gioco_dell.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         flood_fill_02_uva_352_The_Seasonal_War.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         flood_fill_03_uva_459_Graph_Connectivity.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         flood_fill_04_uva_469_Wetlands_of_Florida.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+         Generating Code...
+         Compiling...
+         flood_fill_05_uva_572_ Oil_Deposits.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\commonheader.h(38): error C2008: '.' : unexpected in macro definition
+     1>Done Building Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" (Build target(s)) -- FAILED.
 
-Build succeeded.
+Build FAILED.
 
-Time Elapsed 00:00:01.84
+Time Elapsed 00:00:17.00
