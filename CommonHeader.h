@@ -33,7 +33,8 @@
 //#define flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest
 //#define flood_fill_10_uva_782_Contour_Painting
 //#define flood_fill_11_uva_784_Maze_Exploration
-#define flood_fill_12_uva_785_Grid_Colouring
+//#define flood_fill_12_uva_785_Grid_Colouring
+#define flood_fill_13_uva_852_Deciding_victory_in_Go
 
 
 /************************************** CodeForce*************************************************/
