@@ -96,6 +96,7 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_10_uva_782_Contour_Painting.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_11_uva_784_Maze_Exploration.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_12_uva_785_Grid_Colouring.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_13_uva_852_Deciding_victory_in_Go.cpp" />
     <ClCompile Include="..\src\Graph\graph_01_basic.cpp" />
   </ItemGroup>
   <ItemGroup>
