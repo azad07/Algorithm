@@ -1,6 +1,11 @@
-﻿Build started 4/7/2016 11:45:45 PM.
+﻿Build started 4/8/2016 12:18:23 AM.
      1>Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" on node 2 (Build target(s)).
-     1>Link:
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\Graph\flood_fill\flood_fill_12_uva_785_Grid_Colouring.cpp
+         flood_fill_12_uva_785_Grid_Colouring.cpp
+     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+     1>d:\algorithm\algorithm\src\graph\flood_fill\flood_fill_12_uva_785_grid_colouring.cpp(84): warning C4018: '>=' : signed/unsigned mismatch
+       Link:
          C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithm\Algorithm\Debug\Algorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithm\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithm\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 Debug\Algorithm.res
          Debug\ad_hoc_01_uva_100_The_3n_Problem.obj
          Debug\ad_hoc_02_uva_272_TeX_Quotes.obj
@@ -28,10 +33,11 @@
          Debug\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.obj
          Debug\flood_fill_10_uva_782_Contour_Painting.obj
          Debug\flood_fill_11_uva_784_Maze_Exploration.obj
+         Debug\flood_fill_12_uva_785_Grid_Colouring.obj
          Debug\graph_01_basic.obj
          Algorithm.vcxproj -> D:\algorithm\Algorithm\Debug\Algorithm.exe
      1>Done Building Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" (Build target(s)).
 
 Build succeeded.
 
-Time Elapsed 00:00:00.45
+Time Elapsed 00:00:01.67
