@@ -84,6 +84,11 @@
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_01_A_Time.cpp" />
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_02_B_Weird_Cryptography.cpp" />
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_03_C_OCR.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_01_Counting_sheep.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_02_Revenge_of_the_Pancakes.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_03_Coin_Jam.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_04_1A_2010_Rotate.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_05_R_1A_2016_A.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_02_uva_352_The_Seasonal_War.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp" />
