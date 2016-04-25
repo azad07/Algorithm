@@ -22,6 +22,9 @@
     <Filter Include="codechef\april_challange">
       <UniqueIdentifier>{e23cd56f-eb99-47c2-b067-4caed7546c71}</UniqueIdentifier>
     </Filter>
+    <Filter Include="codejam">
+      <UniqueIdentifier>{74061357-b394-4a58-9a27-0847d2dda54c}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -113,6 +116,21 @@
     </ClCompile>
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_14_uva_871_Counting_Cells_in_a_Blob.cpp">
       <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_01_Counting_sheep.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_02_Revenge_of_the_Pancakes.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_03_Coin_Jam.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_04_1A_2010_Rotate.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_05_R_1A_2016_A.cpp">
+      <Filter>codejam</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
