@@ -42,7 +42,9 @@
 //#define codejam_02_Revenge_of_the_Pancakes
 //#define codejam_03_Coin_Jam
 //#define codejam_04_1A_2010_Rotate
-#define codejam_05_R_1A_2016_A
+//#define codejam_05_R_1A_2016_A
+//#define codejam_06_R_1A_2016_B
+//#define codejam_07_R_1B_2016_A
 
 /************************************** CodeForce*************************************************/
 //#define codeforce_01_A_Time
@@ -53,6 +55,9 @@
 //#define codechef_01_apr_Chef_And_Coloring
 //#define codechef_02_apr_Chef_and_Ballons
 //#define codechef_03_apr_Chef_And_Magical_Path
+
+/************************************** Dynamic programming*************************************************/
+#define DP_01_uva_507_Jill_Rides_Again
 
 /*******************************************************************************************************/
 #include <iostream>

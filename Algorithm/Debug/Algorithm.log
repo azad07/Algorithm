@@ -1,49 +1,6 @@
-﻿Build started 4/25/2016 11:01:34 PM.
-     1>Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" on node 2 (Build target(s)).
-     1>ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt ..\src\codejam\codejam_05_R_1A_2016_A.cpp
-         codejam_05_R_1A_2016_A.cpp
-     1>d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-       Link:
-         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\algorithm\Algorithm\Debug\Algorithm.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\algorithm\Algorithm\Debug\Algorithm.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\algorithm\Algorithm\Debug\Algorithm.lib" /MACHINE:X86 Debug\Algorithm.res
-         Debug\ad_hoc_01_uva_100_The_3n_Problem.obj
-         Debug\ad_hoc_02_uva_272_TeX_Quotes.obj
-         Debug\ad_hoc_03_uva_483_Word_Scramble.obj
-         Debug\ad_hoc_04_uva_573_The_Snail.obj
-         Debug\ad_hoc_05_uva_661_Blowing_Fuses.obj
-         Debug\ad_hoc_06_uva_837_Light_and_Transparencies.obj
-         Debug\ad_hoc_07_uva_10082_WERTYU.obj
-         Debug\ad_hoc_08_uva_10141_Request_for_Proposal.obj
-         Debug\ad_hoc_09_uva_10281_Average_Speed.obj
-         Debug\codechef_01_apr_Chef_And_Coloring.obj
-         Debug\codechef_02_apr_Chef_and_Ballons.obj
-         Debug\codechef_03_apr_Chef_And_Magical_Path.obj
-         Debug\codeforce_01_A_Time.obj
-         Debug\codeforce_02_B_Weird_Cryptography.obj
-         Debug\codeforce_03_C_OCR.obj
-         Debug\codejam_01_Counting_sheep.obj
-         Debug\codejam_02_Revenge_of_the_Pancakes.obj
-         Debug\codejam_03_Coin_Jam.obj
-         Debug\codejam_04_1A_2010_Rotate.obj
-         Debug\codejam_05_R_1A_2016_A.obj
-         Debug\flood_fill_01_uva_260_Gioco_dell.obj
-         Debug\flood_fill_02_uva_352_The_Seasonal_War.obj
-         Debug\flood_fill_03_uva_459_Graph_Connectivity.obj
-         Debug\flood_fill_04_uva_469_Wetlands_of_Florida.obj
-         "Debug\flood_fill_05_uva_572_ Oil_Deposits.obj"
-         Debug\flood_fill_06_uva_657_The_die_is_cast.obj
-         Debug\flood_fill_07_uva_722_Lakes.obj
-         Debug\flood_fill_08_uva_758_The_Same_Game.obj
-         Debug\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.obj
-         Debug\flood_fill_10_uva_782_Contour_Painting.obj
-         Debug\flood_fill_11_uva_784_Maze_Exploration.obj
-         Debug\flood_fill_12_uva_785_Grid_Colouring.obj
-         Debug\flood_fill_13_uva_852_Deciding_victory_in_Go.obj
-         Debug\flood_fill_14_uva_871_Counting_Cells_in_a_Blob.obj
-         Debug\graph_01_basic.obj
-         Algorithm.vcxproj -> D:\algorithm\Algorithm\Debug\Algorithm.exe
-     1>Done Building Project "D:\algorithm\Algorithm\Algorithm\Algorithm.vcxproj" (Build target(s)).
-
-Build succeeded.
-
-Time Elapsed 00:00:01.62
+﻿  DP_01_uva_507_Jill_Rides_Again.cpp
+d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+d:\algorithm\algorithm\src\dp\max_1d_range_sum\dp_01_uva_507_jill_rides_again.cpp(53): warning C4101: 'best': unreferenced local variable
+d:\algorithm\algorithm\src\dp\max_1d_range_sum\dp_01_uva_507_jill_rides_again.cpp(53): warning C4101: 'j': unreferenced local variable
+d:\algorithm\algorithm\src\dp\max_1d_range_sum\dp_01_uva_507_jill_rides_again.cpp(53): warning C4101: 'i': unreferenced local variable
+  Algorithm.vcxproj -> D:\algorithm\Algorithm\Debug\Algorithm.exe

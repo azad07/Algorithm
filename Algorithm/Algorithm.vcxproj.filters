@@ -25,6 +25,12 @@
     <Filter Include="codejam">
       <UniqueIdentifier>{74061357-b394-4a58-9a27-0847d2dda54c}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DP">
+      <UniqueIdentifier>{d415705b-ac2b-4a75-9468-341351e3464e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP\Max_1D_Range_sum">
+      <UniqueIdentifier>{44e2a981-188e-49c2-9ea3-d0b1568f6793}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -131,6 +137,15 @@
     </ClCompile>
     <ClCompile Include="..\src\codejam\codejam_05_R_1A_2016_A.cpp">
       <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_06_R_1A_2016_B.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_07_R_1B_2016_A.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_01_uva_507_Jill_Rides_Again.cpp">
+      <Filter>DP\Max_1D_Range_sum</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
