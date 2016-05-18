@@ -57,7 +57,8 @@
 //#define codechef_03_apr_Chef_And_Magical_Path
 
 /************************************** Dynamic programming*************************************************/
-#define DP_01_uva_507_Jill_Rides_Again
+//#define DP_01_uva_507_Jill_Rides_Again
+#define DP_02_uva_10755_Garbage_Heap
 
 /*******************************************************************************************************/
 #include <iostream>
