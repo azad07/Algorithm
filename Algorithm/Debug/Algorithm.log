@@ -1,6 +1,3 @@
-﻿  DP_01_uva_507_Jill_Rides_Again.cpp
+﻿  DP_02_uva_10755_Garbage_Heap.cpp
 d:\algorithm\algorithm\commonheader.h(6): warning C4067: unexpected tokens following preprocessor directive - expected a newline
-d:\algorithm\algorithm\src\dp\max_1d_range_sum\dp_01_uva_507_jill_rides_again.cpp(53): warning C4101: 'best': unreferenced local variable
-d:\algorithm\algorithm\src\dp\max_1d_range_sum\dp_01_uva_507_jill_rides_again.cpp(53): warning C4101: 'j': unreferenced local variable
-d:\algorithm\algorithm\src\dp\max_1d_range_sum\dp_01_uva_507_jill_rides_again.cpp(53): warning C4101: 'i': unreferenced local variable
   Algorithm.vcxproj -> D:\algorithm\Algorithm\Debug\Algorithm.exe
