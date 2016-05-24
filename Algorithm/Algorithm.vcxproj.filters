@@ -150,6 +150,9 @@
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_02_uva_10755_Garbage_Heap.cpp">
       <Filter>DP\Max_1D_Range_sum</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_03_uva_10684_The_jackpot.cpp">
+      <Filter>DP\Max_1D_Range_sum</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
