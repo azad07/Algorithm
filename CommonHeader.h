@@ -58,7 +58,8 @@
 
 /************************************** Dynamic programming*************************************************/
 //#define DP_01_uva_507_Jill_Rides_Again
-#define DP_02_uva_10755_Garbage_Heap
+//#define DP_02_uva_10755_Garbage_Heap
+#define DP_03_uva_10684_The_jackpot
 
 /*******************************************************************************************************/
 #include <iostream>
