@@ -94,6 +94,7 @@
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_01_uva_507_Jill_Rides_Again.cpp" />
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_02_uva_10755_Garbage_Heap.cpp" />
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_03_uva_10684_The_jackpot.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_04_uva_108_Maximum_Sum.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_02_uva_352_The_Seasonal_War.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp" />

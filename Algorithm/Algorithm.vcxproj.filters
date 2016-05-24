@@ -31,6 +31,9 @@
     <Filter Include="DP\Max_1D_Range_sum">
       <UniqueIdentifier>{44e2a981-188e-49c2-9ea3-d0b1568f6793}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DP\Max_2D_Range_sum">
+      <UniqueIdentifier>{cc002db9-6d3a-4b81-ac9f-2f17a496b581}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -152,6 +155,9 @@
     </ClCompile>
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_03_uva_10684_The_jackpot.cpp">
       <Filter>DP\Max_1D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_04_uva_108_Maximum_Sum.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
