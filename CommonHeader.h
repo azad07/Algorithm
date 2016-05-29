@@ -60,7 +60,8 @@
 //#define DP_01_uva_507_Jill_Rides_Again
 //#define DP_02_uva_10755_Garbage_Heap
 //#define DP_03_uva_10684_The_jackpot
-#define DP_04_uva_108_Maximum_Sum
+//#define DP_04_uva_108_Maximum_Sum
+#define DP_05_Localized_Summing_for_Blurring
 
 /*******************************************************************************************************/
 #include <iostream>
