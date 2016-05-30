@@ -162,6 +162,9 @@
     <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_05_Localized_Summing_for_Blurring.cpp">
       <Filter>DP\Max_2D_Range_sum</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_06_uva_836_Largest_Submatrix.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
