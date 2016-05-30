@@ -98,6 +98,7 @@
     <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_05_Localized_Summing_for_Blurring.cpp" />
     <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_06_uva_836_Largest_Submatrix.cpp" />
     <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_07_uva_10074_Take_the_Land.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_08_uva_10667_Larges_ Block.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_02_uva_352_The_Seasonal_War.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp" />
