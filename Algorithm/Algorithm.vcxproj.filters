@@ -168,6 +168,9 @@
     <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_07_uva_10074_Take_the_Land.cpp">
       <Filter>DP\Max_2D_Range_sum</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_08_uva_10667_Larges_ Block.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
