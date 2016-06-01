@@ -64,7 +64,8 @@
 //#define DP_05_Localized_Summing_for_Blurring
 //#define DP_06_uva_836_Largest_Submatrix
 //#define DP_07_uva_10074_Take_the_Land
-#define DP_08_uva_10667_Larges_ Block
+//#define DP_08_uva_10667_Larges_ Block
+#define DP_09_uva_10827_Maximum_sum_on_a_torus
 
 /*******************************************************************************************************/
 #include <iostream>
