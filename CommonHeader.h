@@ -67,7 +67,8 @@
 //#define DP_08_uva_10667_Larges_ Block
 //#define DP_09_uva_10827_Maximum_sum_on_a_torus
 //#define DP_10_uva_11951_Area
-#define DP_11_uva_111_History_Grading
+//#define DP_11_uva_111_History_Grading
+#define DP_12_uva_231_Testing_the_CATCHER
 
 /*******************************************************************************************************/
 #include <iostream>

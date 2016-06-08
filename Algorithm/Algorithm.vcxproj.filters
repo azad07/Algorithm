@@ -183,6 +183,9 @@
     <ClCompile Include="..\src\DP\LIS\DP_11_uva_111_History_Grading.cpp">
       <Filter>DP\LIS</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\LIS\DP_12_uva_231_Testing_the_CATCHER.cpp">
+      <Filter>DP\LIS</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />

@@ -92,6 +92,7 @@
     <ClCompile Include="..\src\codejam\codejam_06_R_1A_2016_B.cpp" />
     <ClCompile Include="..\src\codejam\codejam_07_R_1B_2016_A.cpp" />
     <ClCompile Include="..\src\DP\LIS\DP_11_uva_111_History_Grading.cpp" />
+    <ClCompile Include="..\src\DP\LIS\DP_12_uva_231_Testing_the_CATCHER.cpp" />
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_01_uva_507_Jill_Rides_Again.cpp" />
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_02_uva_10755_Garbage_Heap.cpp" />
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_03_uva_10684_The_jackpot.cpp" />
