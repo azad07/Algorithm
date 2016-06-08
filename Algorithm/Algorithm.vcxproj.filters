@@ -34,6 +34,9 @@
     <Filter Include="DP\Max_2D_Range_sum">
       <UniqueIdentifier>{cc002db9-6d3a-4b81-ac9f-2f17a496b581}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DP\LIS">
+      <UniqueIdentifier>{9fe317f9-f8fd-4b1a-a518-759cdd02b37b}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -176,6 +179,9 @@
     </ClCompile>
     <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_10_uva_11951_Area.cpp">
       <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\LIS\DP_11_uva_111_History_Grading.cpp">
+      <Filter>DP\LIS</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
