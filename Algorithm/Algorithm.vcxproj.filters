@@ -37,6 +37,9 @@
     <Filter Include="DP\LIS">
       <UniqueIdentifier>{9fe317f9-f8fd-4b1a-a518-759cdd02b37b}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DP\knapsack">
+      <UniqueIdentifier>{aa62bf39-b7f3-4cd2-9915-20be1359d2f8}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -185,6 +188,9 @@
     </ClCompile>
     <ClCompile Include="..\src\DP\LIS\DP_12_uva_231_Testing_the_CATCHER.cpp">
       <Filter>DP\LIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Knapsack\DP_13_uva_562_Dividing_coins.cpp">
+      <Filter>DP\knapsack</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
