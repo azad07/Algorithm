@@ -195,6 +195,9 @@
     <ClCompile Include="..\src\DP\Knapsack\DP_14_uva_990_Diving_for_gold.cpp">
       <Filter>DP\knapsack</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\Knapsack\DP_15_uva_10130_SuperSale.cpp">
+      <Filter>DP\knapsack</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
