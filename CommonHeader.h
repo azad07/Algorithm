@@ -70,7 +70,8 @@
 //#define DP_11_uva_111_History_Grading
 //#define DP_12_uva_231_Testing_the_CATCHER
 //#define DP_13_uva_562_Dividing_coins
-#define DP_14_uva_990_Diving_for_gold
+//#define DP_14_uva_990_Diving_for_gold
+#define DP_15_uva_10130_SuperSale
 
 /*******************************************************************************************************/
 #include <iostream>

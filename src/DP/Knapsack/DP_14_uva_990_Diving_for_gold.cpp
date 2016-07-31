@@ -51,13 +51,12 @@ int gold[31];
 int t, w, N;
 
 int memo[31][1001]; //[id][rem_time];
-int dive[31];
 
 int getMaxGold(int id, int rem_time)
 {
 	if (id > N)
 		return 0;
-	if (memo[id][rem_time] > -1)
+	if (memo[id][rem_time] > 0)
 		return memo[id][rem_time];
 
 	int take = 0, dont_take = 0;
@@ -77,19 +76,49 @@ int getMaxGold(int id, int rem_time)
 
 int main()
 {
-	
-	while (scanf("%d %d\n", &t, &w) >= 0)
+	bool first = true;
+	while (scanf("%d %d", &t, &w) == 2)
 	{
-		scanf("%d\n", &N);
-		FORI(i, 1, N) scanf("%d %d\n", &depth[i], &gold[i]);
+		scanf("%d", &N);
+		FORI(i, 1, N) scanf("%d %d", &depth[i], &gold[i]);
 
-		memset(memo, -1, sizeof(memo));
-		memset(dive, -1, sizeof(dive));
+		memset(memo, 0, sizeof(memo));
 
 		int total_gold = getMaxGold(1, t);
 
-		printf("%d", total_gold);
+		if (!first)
+		{	
+			printf("\n");
+		}
+		first = false;
 
+		printf("%d\n", total_gold);
+
+		//just looking at memo table, we can reverse engineering the selection path.
+		int dive[31] = {};
+		for (int id = 1, time = t; id<=N; id++)
+		{
+			dive[id] = ((memo[id+1][time-3*w*depth[id]] + gold[id]) == memo[id][time]) ? 1 : -1;
+			if (dive[id] == 1)
+			{
+				time -= 3 * w*depth[id];
+			}
+		}
+	
+		int dive_count = 0;
+		FORI(i, 1, N)
+		{
+			if (dive[i] == 1) 
+				dive_count++;
+		}
+		printf("%d\n", dive_count);
+		FORI(i, 1, N)
+		{
+			if (dive[i]  == 1)
+			{
+				printf("%d %d\n", depth[i], gold[i]);
+			}
+		}
 	}
 	return 0;
 }
