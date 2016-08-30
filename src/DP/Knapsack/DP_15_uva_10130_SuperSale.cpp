@@ -58,7 +58,7 @@ int main()
 		FORI(i, 1, N)
 		{
 			cin >> p >> w;
-			// implement bottom up dp approach for knapsack.
+			// implement top-down dp approach for knapsack.
 			RFORI(j, 30, w)
 			{
 				if (dp[j] < dp[j - w] + p)

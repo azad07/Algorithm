@@ -40,6 +40,12 @@
     <Filter Include="DP\knapsack">
       <UniqueIdentifier>{aa62bf39-b7f3-4cd2-9915-20be1359d2f8}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DP\CoinChange">
+      <UniqueIdentifier>{098116e9-c168-48f8-932e-34b0d0698183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP\level_1">
+      <UniqueIdentifier>{efaa8166-3bd1-4c26-b8bc-72ce936c6d40}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -197,6 +203,54 @@
     </ClCompile>
     <ClCompile Include="..\src\DP\Knapsack\DP_15_uva_10130_SuperSale.cpp">
       <Filter>DP\knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\CoinChange\DP_16_uva_147_Dollors.cpp">
+      <Filter>DP\CoinChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\CoinChange\DP_17_uva_166_Making_changs.cpp">
+      <Filter>DP\CoinChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\CoinChange\DP_18_uva_357_Let_Me_Count_The_Ways.cpp">
+      <Filter>DP\CoinChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\CoinChange\DP_19_uva_674_Coin_Change.cpp">
+      <Filter>DP\CoinChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_20_uva_11407_Squares.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_21_uva_00116_Unidirectional_TSP.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_22_uva_Simple_Minded_Hashing.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_23_uva_10910_Marks_Distribution.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_24_uva_11026_A_Grouping_Problem.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_25_uva_10003_Cutting_Sticks.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_26_uva_10465_Homer_Simpson.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_27_uva_10036_Divisibility.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_28_uva_10400_Game_Show_Math.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_29_uva_00437_The_Tower_of_Babylon.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_30_uva_10616_Divisible_Group_Sums.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_31_uva_10364_Square.cpp">
+      <Filter>DP\level_1</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

@@ -71,7 +71,23 @@
 //#define DP_12_uva_231_Testing_the_CATCHER
 //#define DP_13_uva_562_Dividing_coins
 //#define DP_14_uva_990_Diving_for_gold
-#define DP_15_uva_10130_SuperSale
+//#define DP_15_uva_10130_SuperSale
+//#define DP_16_uva_147_Dollors
+//#define DP_17_uva_166_Making_changs
+//#define DP_18_uva_357_Let_Me_Count_The_Ways
+//#define DP_19_uva_674_Coin_Change
+//#define DP_20_uva_11407_Squares
+//#define DP_21_uva_00116_Unidirectional_TSP
+//#define DP_22_uva_Simple_Minded_Hashing
+//#define DP_23_uva_10910_Marks_Distribution
+//#define DP_24_uva_11026_A_Grouping_Problem
+//#define DP_25_uva_10003_Cutting_Sticks
+//#define DP_26_uva_10465_Homer_Simpson
+//#define DP_27_uva_10036_Divisibility
+//#define DP_28_uva_10400_Game_Show_Math
+//#define DP_29_uva_00437_The_Tower_of_Babylon
+//#define DP_30_uva_10616_Divisible_Group_Sums
+#define DP_31_uva_10364_Square
 
 /*******************************************************************************************************/
 #include <iostream>
