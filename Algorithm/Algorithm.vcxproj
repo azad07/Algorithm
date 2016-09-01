@@ -110,6 +110,8 @@
     <ClCompile Include="..\src\DP\level_1\DP_29_uva_00437_The_Tower_of_Babylon.cpp" />
     <ClCompile Include="..\src\DP\level_1\DP_30_uva_10616_Divisible_Group_Sums.cpp" />
     <ClCompile Include="..\src\DP\level_1\DP_31_uva_10364_Square.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_32_uva_10534_Wavio_Sequence.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_33_uva_00481_What_goes_up.cpp" />
     <ClCompile Include="..\src\DP\LIS\DP_11_uva_111_History_Grading.cpp" />
     <ClCompile Include="..\src\DP\LIS\DP_12_uva_231_Testing_the_CATCHER.cpp" />
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_01_uva_507_Jill_Rides_Again.cpp" />

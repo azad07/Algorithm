@@ -87,7 +87,9 @@
 //#define DP_28_uva_10400_Game_Show_Math
 //#define DP_29_uva_00437_The_Tower_of_Babylon
 //#define DP_30_uva_10616_Divisible_Group_Sums
-#define DP_31_uva_10364_Square
+//#define DP_31_uva_10364_Square
+//#define DP_32_uva_10534_Wavio_Sequence
+#define DP_33_uva_00481_What_goes_up
 
 /*******************************************************************************************************/
 #include <iostream>
