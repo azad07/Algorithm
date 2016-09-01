@@ -252,6 +252,12 @@
     <ClCompile Include="..\src\DP\level_1\DP_31_uva_10364_Square.cpp">
       <Filter>DP\level_1</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_32_uva_10534_Wavio_Sequence.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_33_uva_00481_What_goes_up.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
