@@ -89,7 +89,8 @@
 //#define DP_30_uva_10616_Divisible_Group_Sums
 //#define DP_31_uva_10364_Square
 //#define DP_32_uva_10534_Wavio_Sequence
-#define DP_33_uva_00481_What_goes_up
+//#define DP_33_uva_00481_What_goes_up
+#define DP_34_uva_11456_Trainsorting
 
 /*******************************************************************************************************/
 #include <iostream>
