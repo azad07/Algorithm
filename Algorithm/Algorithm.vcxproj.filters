@@ -258,6 +258,9 @@
     <ClCompile Include="..\src\DP\level_1\DP_33_uva_00481_What_goes_up.cpp">
       <Filter>DP\level_1</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_34_uva_11456_Trainsorting.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />

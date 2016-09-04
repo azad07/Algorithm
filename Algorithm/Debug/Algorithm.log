@@ -1,12 +1,2 @@
-﻿  DP_33_uva_00481_What_goes_up.cpp
-d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(94): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
-d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(74): warning C4477: 'scanf' : format string '%d' requires an argument of type 'int *', but variadic argument 1 has type '__int64 *'
-  d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(74): note: consider using '%lld' in the format string
-  d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(74): note: consider using '%I64d' in the format string
-d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(102): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
-  d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(102): note: consider using '%lld' in the format string
-  d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(102): note: consider using '%I64d' in the format string
-d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(130): warning C4477: 'printf' : format string '%d' requires an argument of type 'int', but variadic argument 1 has type '__int64'
-  d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(130): note: consider using '%lld' in the format string
-  d:\algorithm\algorithm\src\dp\level_1\dp_33_uva_00481_what_goes_up.cpp(130): note: consider using '%I64d' in the format string
+﻿  DP_34_uva_11456_Trainsorting.cpp
   Algorithm.vcxproj -> D:\algorithm\Algorithm\Debug\Algorithm.exe
