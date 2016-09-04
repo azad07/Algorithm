@@ -264,6 +264,9 @@
     <ClCompile Include="..\src\DP\level_1\DP_35_uva_11790_Murcia_Skyline.cpp">
       <Filter>DP\level_1</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_36_uva_01196_Tiling_Up_Blocks.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />

@@ -91,7 +91,8 @@
 //#define DP_32_uva_10534_Wavio_Sequence
 //#define DP_33_uva_00481_What_goes_up
 //#define DP_34_uva_11456_Trainsorting
-#define DP_35_uva_11790_Murcia_Skyline
+//#define DP_35_uva_11790_Murcia_Skyline
+#define DP_36_uva_01196_Tiling_Up_Blocks
 
 /*******************************************************************************************************/
 #include <iostream>
