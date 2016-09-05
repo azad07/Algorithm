@@ -92,7 +92,8 @@
 //#define DP_33_uva_00481_What_goes_up
 //#define DP_34_uva_11456_Trainsorting
 //#define DP_35_uva_11790_Murcia_Skyline
-#define DP_36_uva_01196_Tiling_Up_Blocks
+//#define DP_36_uva_01196_Tiling_Up_Blocks
+#define DP_37_uva_10131_Is_Bigger_Smarter
 
 /*******************************************************************************************************/
 #include <iostream>
