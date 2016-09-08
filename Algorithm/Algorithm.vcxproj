@@ -117,6 +117,7 @@
     <ClCompile Include="..\src\DP\level_1\DP_36_uva_01196_Tiling_Up_Blocks.cpp" />
     <ClCompile Include="..\src\DP\level_1\DP_37_uva_10131_Is_Bigger_Smarter.cpp" />
     <ClCompile Include="..\src\DP\level_1\DP_38_uva_01231_acorn.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_39_uva_10271_Chopsticks.cpp" />
     <ClCompile Include="..\src\DP\LIS\DP_11_uva_111_History_Grading.cpp" />
     <ClCompile Include="..\src\DP\LIS\DP_12_uva_231_Testing_the_CATCHER.cpp" />
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_01_uva_507_Jill_Rides_Again.cpp" />
