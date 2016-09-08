@@ -273,6 +273,9 @@
     <ClCompile Include="..\src\DP\level_1\DP_38_uva_01231_acorn.cpp">
       <Filter>DP\level_1</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_39_uva_10271_Chopsticks.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />

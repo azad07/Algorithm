@@ -94,7 +94,8 @@
 //#define DP_35_uva_11790_Murcia_Skyline
 //#define DP_36_uva_01196_Tiling_Up_Blocks
 //#define DP_37_uva_10131_Is_Bigger_Smarter
-#define DP_38_uva_01231_acorn
+//#define DP_38_uva_01231_acorn
+#define DP_39_uva_10271_Chopsticks
 
 /*******************************************************************************************************/
 #include <iostream>
