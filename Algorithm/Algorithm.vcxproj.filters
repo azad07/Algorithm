@@ -46,6 +46,9 @@
     <Filter Include="DP\level_1">
       <UniqueIdentifier>{efaa8166-3bd1-4c26-b8bc-72ce936c6d40}</UniqueIdentifier>
     </Filter>
+    <Filter Include="DataStructure">
+      <UniqueIdentifier>{05fdbd53-007b-4a09-a6ae-3a861407fbe4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -276,6 +279,18 @@
     <ClCompile Include="..\src\DP\level_1\DP_39_uva_10271_Chopsticks.cpp">
       <Filter>DP\level_1</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_40_uva_10349_Antenna_Placement.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_41_uva_11002_Towards_Zero.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataStructure\DS_01_BST.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataStructure\DS_02_test.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
@@ -284,5 +299,10 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Algorithm.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="C:\Users\azad07\Videos\videoplayback.mp4">
+      <Filter>Graph</Filter>
+    </Media>
   </ItemGroup>
 </Project>

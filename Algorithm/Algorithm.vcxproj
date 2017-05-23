@@ -91,6 +91,8 @@
     <ClCompile Include="..\src\codejam\codejam_05_R_1A_2016_A.cpp" />
     <ClCompile Include="..\src\codejam\codejam_06_R_1A_2016_B.cpp" />
     <ClCompile Include="..\src\codejam\codejam_07_R_1B_2016_A.cpp" />
+    <ClCompile Include="..\src\DataStructure\DS_01_BST.cpp" />
+    <ClCompile Include="..\src\DataStructure\DS_02_test.cpp" />
     <ClCompile Include="..\src\DP\CoinChange\DP_16_uva_147_Dollors.cpp" />
     <ClCompile Include="..\src\DP\CoinChange\DP_17_uva_166_Making_changs.cpp" />
     <ClCompile Include="..\src\DP\CoinChange\DP_18_uva_357_Let_Me_Count_The_Ways.cpp" />
@@ -118,6 +120,8 @@
     <ClCompile Include="..\src\DP\level_1\DP_37_uva_10131_Is_Bigger_Smarter.cpp" />
     <ClCompile Include="..\src\DP\level_1\DP_38_uva_01231_acorn.cpp" />
     <ClCompile Include="..\src\DP\level_1\DP_39_uva_10271_Chopsticks.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_40_uva_10349_Antenna_Placement.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_41_uva_11002_Towards_Zero.cpp" />
     <ClCompile Include="..\src\DP\LIS\DP_11_uva_111_History_Grading.cpp" />
     <ClCompile Include="..\src\DP\LIS\DP_12_uva_231_Testing_the_CATCHER.cpp" />
     <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_01_uva_507_Jill_Rides_Again.cpp" />
@@ -153,6 +157,9 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="Algorithm.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="C:\Users\azad07\Videos\videoplayback.mp4" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
