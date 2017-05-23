@@ -95,7 +95,14 @@
 //#define DP_36_uva_01196_Tiling_Up_Blocks
 //#define DP_37_uva_10131_Is_Bigger_Smarter
 //#define DP_38_uva_01231_acorn
-#define DP_39_uva_10271_Chopsticks
+//#define DP_39_uva_10271_Chopsticks
+//#define DP_40_uva_10349_Antenna_Placement
+//#define DP_41_uva_11002_Towards_Zero
+
+/***************************************************************/
+// DataStructure
+//#define DS_01_BST
+#define DS_02_test
 
 /*******************************************************************************************************/
 #include <iostream>
