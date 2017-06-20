@@ -84,6 +84,10 @@
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_01_A_Time.cpp" />
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_02_B_Weird_Cryptography.cpp" />
     <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_03_C_OCR.cpp" />
+<<<<<<< HEAD
+    <ClCompile Include="..\src\codeground\codeground_01_Studying_for_Exams.cpp" />
+=======
+>>>>>>> origin/dev_ashish
     <ClCompile Include="..\src\codejam\codejam_01_Counting_sheep.cpp" />
     <ClCompile Include="..\src\codejam\codejam_02_Revenge_of_the_Pancakes.cpp" />
     <ClCompile Include="..\src\codejam\codejam_03_Coin_Jam.cpp" />
@@ -149,6 +153,16 @@
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_13_uva_852_Deciding_victory_in_Go.cpp" />
     <ClCompile Include="..\src\Graph\flood_fill\flood_fill_14_uva_871_Counting_Cells_in_a_Blob.cpp" />
     <ClCompile Include="..\src\Graph\graph_01_basic.cpp" />
+<<<<<<< HEAD
+    <ClCompile Include="..\src\TopCoder\HiddenNumbers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\TopCoder\Plusonegame.cpp" />
+    <ClCompile Include="..\src\TopCoder\WritingWords.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+=======
+>>>>>>> origin/dev_ashish
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
