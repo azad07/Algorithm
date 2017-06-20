@@ -49,12 +49,15 @@
     <Filter Include="DataStructure">
       <UniqueIdentifier>{05fdbd53-007b-4a09-a6ae-3a861407fbe4}</UniqueIdentifier>
     </Filter>
+<<<<<<< HEAD
     <Filter Include="codeground">
       <UniqueIdentifier>{b3e1ec1e-b54f-4291-9b9a-d73fd4205b71}</UniqueIdentifier>
     </Filter>
     <Filter Include="TopCoder">
       <UniqueIdentifier>{4dac0e39-893d-43ab-bcff-5b7ed4818827}</UniqueIdentifier>
     </Filter>
+=======
+>>>>>>> origin/dev_ashish
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
@@ -297,6 +300,7 @@
     <ClCompile Include="..\src\DataStructure\DS_02_test.cpp">
       <Filter>DataStructure</Filter>
     </ClCompile>
+<<<<<<< HEAD
     <ClCompile Include="..\src\codeground\codeground_01_Studying_for_Exams.cpp">
       <Filter>codeground</Filter>
     </ClCompile>
@@ -309,6 +313,8 @@
     <ClCompile Include="..\src\TopCoder\Plusonegame.cpp">
       <Filter>TopCoder</Filter>
     </ClCompile>
+=======
+>>>>>>> origin/dev_ashish
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />

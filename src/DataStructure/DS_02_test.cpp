@@ -5,7 +5,10 @@
 READ_INPUT(DS_02_test)
 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev_ashish
 #include <iostream>
 
 using namespace std;
@@ -116,8 +119,11 @@ struct Node {
 	int key;
 	Node *left;
 	Node *right;
+<<<<<<< HEAD
 	Node *next;
 	Node *prev;
+=======
+>>>>>>> origin/dev_ashish
 	Node(int key) {
 		this->key = key;
 		this->left = NULL;
@@ -133,8 +139,11 @@ private:
 public:
 	BST() {
 		root = NULL;
+<<<<<<< HEAD
 		first_node = NULL;
 		last_added = NULL;
+=======
+>>>>>>> origin/dev_ashish
 	}
 	~BST() {
 	}
@@ -169,7 +178,10 @@ public:
 	}
 
 private:
+<<<<<<< HEAD
 
+=======
+>>>>>>> origin/dev_ashish
 	Node* Max(Node* node) {
 		if (node == NULL)
 			return NULL;
