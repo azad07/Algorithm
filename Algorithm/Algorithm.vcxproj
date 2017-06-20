@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -18,13 +18,13 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>Application</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
-    <PlatformToolset>v120</PlatformToolset>
+    <PlatformToolset>v140</PlatformToolset>
     <WholeProgramOptimization>true</WholeProgramOptimization>
     <CharacterSet>MultiByte</CharacterSet>
   </PropertyGroup>
@@ -47,6 +47,8 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <CompileAs>CompileAsCpp</CompileAs>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>%(DisableSpecificWarnings)</DisableSpecificWarnings>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -68,9 +70,104 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_02_uva_272_TeX_Quotes.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_03_uva_483_Word_Scramble.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_04_uva_573_The_Snail.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_05_uva_661_Blowing_Fuses.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_06_uva_837_Light_and_Transparencies.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_07_uva_10082_WERTYU.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp" />
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_09_uva_10281_Average_Speed.cpp" />
+    <ClCompile Include="..\src\codechef\april_16\codechef_01_apr_Chef_And_Coloring.cpp" />
+    <ClCompile Include="..\src\codechef\april_16\codechef_02_apr_Chef_and_Ballons.cpp" />
+    <ClCompile Include="..\src\codechef\april_16\codechef_03_apr_Chef_And_Magical_Path.cpp" />
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_01_A_Time.cpp" />
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_02_B_Weird_Cryptography.cpp" />
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_03_C_OCR.cpp" />
+    <ClCompile Include="..\src\codeground\codeground_01_Studying_for_Exams.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_01_Counting_sheep.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_02_Revenge_of_the_Pancakes.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_03_Coin_Jam.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_04_1A_2010_Rotate.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_05_R_1A_2016_A.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_06_R_1A_2016_B.cpp" />
+    <ClCompile Include="..\src\codejam\codejam_07_R_1B_2016_A.cpp" />
+    <ClCompile Include="..\src\DataStructure\DS_01_BST.cpp" />
+    <ClCompile Include="..\src\DataStructure\DS_02_test.cpp" />
+    <ClCompile Include="..\src\DP\CoinChange\DP_16_uva_147_Dollors.cpp" />
+    <ClCompile Include="..\src\DP\CoinChange\DP_17_uva_166_Making_changs.cpp" />
+    <ClCompile Include="..\src\DP\CoinChange\DP_18_uva_357_Let_Me_Count_The_Ways.cpp" />
+    <ClCompile Include="..\src\DP\CoinChange\DP_19_uva_674_Coin_Change.cpp" />
+    <ClCompile Include="..\src\DP\Knapsack\DP_13_uva_562_Dividing_coins.cpp" />
+    <ClCompile Include="..\src\DP\Knapsack\DP_14_uva_990_Diving_for_gold.cpp" />
+    <ClCompile Include="..\src\DP\Knapsack\DP_15_uva_10130_SuperSale.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_20_uva_11407_Squares.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_21_uva_00116_Unidirectional_TSP.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_22_uva_Simple_Minded_Hashing.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_23_uva_10910_Marks_Distribution.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_24_uva_11026_A_Grouping_Problem.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_25_uva_10003_Cutting_Sticks.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_26_uva_10465_Homer_Simpson.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_27_uva_10036_Divisibility.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_28_uva_10400_Game_Show_Math.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_29_uva_00437_The_Tower_of_Babylon.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_30_uva_10616_Divisible_Group_Sums.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_31_uva_10364_Square.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_32_uva_10534_Wavio_Sequence.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_33_uva_00481_What_goes_up.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_34_uva_11456_Trainsorting.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_35_uva_11790_Murcia_Skyline.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_36_uva_01196_Tiling_Up_Blocks.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_37_uva_10131_Is_Bigger_Smarter.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_38_uva_01231_acorn.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_39_uva_10271_Chopsticks.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_40_uva_10349_Antenna_Placement.cpp" />
+    <ClCompile Include="..\src\DP\level_1\DP_41_uva_11002_Towards_Zero.cpp" />
+    <ClCompile Include="..\src\DP\LIS\DP_11_uva_111_History_Grading.cpp" />
+    <ClCompile Include="..\src\DP\LIS\DP_12_uva_231_Testing_the_CATCHER.cpp" />
+    <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_01_uva_507_Jill_Rides_Again.cpp" />
+    <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_02_uva_10755_Garbage_Heap.cpp" />
+    <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_03_uva_10684_The_jackpot.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_04_uva_108_Maximum_Sum.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_05_Localized_Summing_for_Blurring.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_06_uva_836_Largest_Submatrix.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_07_uva_10074_Take_the_Land.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_08_uva_10667_Larges_ Block.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_09_uva_10827_Maximum_sum_on_a_torus.cpp" />
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_10_uva_11951_Area.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_02_uva_352_The_Seasonal_War.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_04_uva_469_Wetlands_of_Florida.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_05_uva_572_ Oil_Deposits.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_06_uva_657_The_die_is_cast.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_07_uva_722_Lakes.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_08_uva_758_The_Same_Game.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_10_uva_782_Contour_Painting.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_11_uva_784_Maze_Exploration.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_12_uva_785_Grid_Colouring.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_13_uva_852_Deciding_victory_in_Go.cpp" />
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_14_uva_871_Counting_Cells_in_a_Blob.cpp" />
+    <ClCompile Include="..\src\Graph\graph_01_basic.cpp" />
+    <ClCompile Include="..\src\TopCoder\HiddenNumbers.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="..\src\TopCoder\Plusonegame.cpp" />
+    <ClCompile Include="..\src\TopCoder\WritingWords.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
+    <ClInclude Include="..\ConsoleColor.h" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Algorithm.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="C:\Users\azad07\Videos\videoplayback.mp4" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

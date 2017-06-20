@@ -4,13 +4,323 @@
     <Filter Include="ad_hoc">
       <UniqueIdentifier>{ababf6cb-7349-42aa-96e6-cbaf90f34381}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Graph">
+      <UniqueIdentifier>{1cce762b-a4fa-4ff9-9b0e-80755e7ef40f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Graph\flood_fill">
+      <UniqueIdentifier>{39089da9-c6f0-48c4-97af-02025e30d202}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codeforce">
+      <UniqueIdentifier>{a4ceb37e-20f0-4f6b-a631-1dd8d85dc3c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codeforce\gym_01">
+      <UniqueIdentifier>{e28727f1-d736-4d2a-875d-3a78c30a25d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef">
+      <UniqueIdentifier>{31480d96-c24e-4a33-a990-f7a8da65eb2e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codechef\april_challange">
+      <UniqueIdentifier>{e23cd56f-eb99-47c2-b067-4caed7546c71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codejam">
+      <UniqueIdentifier>{74061357-b394-4a58-9a27-0847d2dda54c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP">
+      <UniqueIdentifier>{d415705b-ac2b-4a75-9468-341351e3464e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP\Max_1D_Range_sum">
+      <UniqueIdentifier>{44e2a981-188e-49c2-9ea3-d0b1568f6793}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP\Max_2D_Range_sum">
+      <UniqueIdentifier>{cc002db9-6d3a-4b81-ac9f-2f17a496b581}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP\LIS">
+      <UniqueIdentifier>{9fe317f9-f8fd-4b1a-a518-759cdd02b37b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP\knapsack">
+      <UniqueIdentifier>{aa62bf39-b7f3-4cd2-9915-20be1359d2f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP\CoinChange">
+      <UniqueIdentifier>{098116e9-c168-48f8-932e-34b0d0698183}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DP\level_1">
+      <UniqueIdentifier>{efaa8166-3bd1-4c26-b8bc-72ce936c6d40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DataStructure">
+      <UniqueIdentifier>{05fdbd53-007b-4a09-a6ae-3a861407fbe4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="codeground">
+      <UniqueIdentifier>{b3e1ec1e-b54f-4291-9b9a-d73fd4205b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="TopCoder">
+      <UniqueIdentifier>{4dac0e39-893d-43ab-bcff-5b7ed4818827}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\src\ad_hoc\ad_hoc_01_uva_100_The_3n_Problem.cpp">
       <Filter>ad_hoc</Filter>
     </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_02_uva_272_TeX_Quotes.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_03_uva_483_Word_Scramble.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_04_uva_573_The_Snail.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_05_uva_661_Blowing_Fuses.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_06_uva_837_Light_and_Transparencies.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_07_uva_10082_WERTYU.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_08_uva_10141_Request_for_Proposal.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\ad_hoc\ad_hoc_09_uva_10281_Average_Speed.cpp">
+      <Filter>ad_hoc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\graph_01_basic.cpp">
+      <Filter>Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_01_uva_260_Gioco_dell.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_02_uva_352_The_Seasonal_War.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_03_uva_459_Graph_Connectivity.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_04_uva_469_Wetlands_of_Florida.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_05_uva_572_ Oil_Deposits.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_06_uva_657_The_die_is_cast.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_07_uva_722_Lakes.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_08_uva_758_The_Same_Game.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_01_A_Time.cpp">
+      <Filter>codeforce\gym_01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_02_B_Weird_Cryptography.cpp">
+      <Filter>codeforce\gym_01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codeforce\Tishreen Collegiate Programming Contest\codeforce_03_C_OCR.cpp">
+      <Filter>codeforce\gym_01</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_09_uva_776_Monkeys_in_a_Regular_Forest.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_10_uva_782_Contour_Painting.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codechef\april_16\codechef_01_apr_Chef_And_Coloring.cpp">
+      <Filter>codechef\april_challange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codechef\april_16\codechef_02_apr_Chef_and_Ballons.cpp">
+      <Filter>codechef\april_challange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codechef\april_16\codechef_03_apr_Chef_And_Magical_Path.cpp">
+      <Filter>codechef\april_challange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_11_uva_784_Maze_Exploration.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_12_uva_785_Grid_Colouring.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_13_uva_852_Deciding_victory_in_Go.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Graph\flood_fill\flood_fill_14_uva_871_Counting_Cells_in_a_Blob.cpp">
+      <Filter>Graph\flood_fill</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_01_Counting_sheep.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_02_Revenge_of_the_Pancakes.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_03_Coin_Jam.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_04_1A_2010_Rotate.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_05_R_1A_2016_A.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_06_R_1A_2016_B.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codejam\codejam_07_R_1B_2016_A.cpp">
+      <Filter>codejam</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_01_uva_507_Jill_Rides_Again.cpp">
+      <Filter>DP\Max_1D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_02_uva_10755_Garbage_Heap.cpp">
+      <Filter>DP\Max_1D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_1D_Range_sum\DP_03_uva_10684_The_jackpot.cpp">
+      <Filter>DP\Max_1D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_04_uva_108_Maximum_Sum.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_05_Localized_Summing_for_Blurring.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_06_uva_836_Largest_Submatrix.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_07_uva_10074_Take_the_Land.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_08_uva_10667_Larges_ Block.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_09_uva_10827_Maximum_sum_on_a_torus.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Max_2D_Range_sum\DP_10_uva_11951_Area.cpp">
+      <Filter>DP\Max_2D_Range_sum</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\LIS\DP_11_uva_111_History_Grading.cpp">
+      <Filter>DP\LIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\LIS\DP_12_uva_231_Testing_the_CATCHER.cpp">
+      <Filter>DP\LIS</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Knapsack\DP_13_uva_562_Dividing_coins.cpp">
+      <Filter>DP\knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Knapsack\DP_14_uva_990_Diving_for_gold.cpp">
+      <Filter>DP\knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\Knapsack\DP_15_uva_10130_SuperSale.cpp">
+      <Filter>DP\knapsack</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\CoinChange\DP_16_uva_147_Dollors.cpp">
+      <Filter>DP\CoinChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\CoinChange\DP_17_uva_166_Making_changs.cpp">
+      <Filter>DP\CoinChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\CoinChange\DP_18_uva_357_Let_Me_Count_The_Ways.cpp">
+      <Filter>DP\CoinChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\CoinChange\DP_19_uva_674_Coin_Change.cpp">
+      <Filter>DP\CoinChange</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_20_uva_11407_Squares.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_21_uva_00116_Unidirectional_TSP.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_22_uva_Simple_Minded_Hashing.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_23_uva_10910_Marks_Distribution.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_24_uva_11026_A_Grouping_Problem.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_25_uva_10003_Cutting_Sticks.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_26_uva_10465_Homer_Simpson.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_27_uva_10036_Divisibility.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_28_uva_10400_Game_Show_Math.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_29_uva_00437_The_Tower_of_Babylon.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_30_uva_10616_Divisible_Group_Sums.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_31_uva_10364_Square.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_32_uva_10534_Wavio_Sequence.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_33_uva_00481_What_goes_up.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_34_uva_11456_Trainsorting.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_35_uva_11790_Murcia_Skyline.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_36_uva_01196_Tiling_Up_Blocks.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_37_uva_10131_Is_Bigger_Smarter.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_38_uva_01231_acorn.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_39_uva_10271_Chopsticks.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_40_uva_10349_Antenna_Placement.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DP\level_1\DP_41_uva_11002_Towards_Zero.cpp">
+      <Filter>DP\level_1</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataStructure\DS_01_BST.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\DataStructure\DS_02_test.cpp">
+      <Filter>DataStructure</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\codeground\codeground_01_Studying_for_Exams.cpp">
+      <Filter>codeground</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TopCoder\HiddenNumbers.cpp">
+      <Filter>TopCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TopCoder\WritingWords.cpp">
+      <Filter>TopCoder</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\TopCoder\Plusonegame.cpp">
+      <Filter>TopCoder</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\CommonHeader.h" />
+    <ClInclude Include="resource.h" />
+    <ClInclude Include="..\ConsoleColor.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Algorithm.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Media Include="C:\Users\azad07\Videos\videoplayback.mp4">
+      <Filter>Graph</Filter>
+    </Media>
   </ItemGroup>
 </Project>
